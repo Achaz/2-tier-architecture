@@ -1,0 +1,3 @@
+The goal of this project is to create a highly available two-tier AWS architecture using Terraform. The architecture consists of two public subnets for the web server tier, two private subnets for the RDS tier, an EC2 instance with my choice of web server in each public subnet, and one RDS MySQL instance (micro) in the private RDS subnets. I also configured security groups for the web servers and RDS instance.
+
+We’ll begin by creating a custom VPC with public and private subnets, launching EC2 instances and setting up an RDS MySQL instance. Furthermore, we’ll demonstrate how custom modules can be used to ensure repeatability and consistency in your infrastructure deployment.
